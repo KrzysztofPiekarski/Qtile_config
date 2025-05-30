@@ -22,11 +22,12 @@ sudo pacman -S qtile xorg-xinit xorg-xrandr
 ### 🛠️ Utilities
 
 sudo pacman -S rofi flameshot brightnessctl playerctl pulseaudio alsa-utils xfce4-power-manager bluez bluez-utils blueman nitrogen networkmanager network-manager-applet 
+yay -S clipit
 
 ### 🎨 Fonts 
 
 Install Nerd Fonts (e.g., FiraCode, JetBrainsMono):
-sudo pacman -S meslo-nerd-fonts ttf-hack-nerd powerline-fonts ttf-font-awesome ttf-jetbrains-mono 
+sudo pacman -S ttf-meslo-nerd ttf-hack-nerd powerline-fonts ttf-font-awesome ttf-jetbrains-mono noto-fonts-emoji 
 
 Alternatively, download from: https://www.nerdfonts.com/
 
