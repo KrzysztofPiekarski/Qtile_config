@@ -72,6 +72,8 @@ keys = [
     Key([mod], "d", lazy.spawn("rofi -show drun")),
     Key([], "Print", lazy.spawn("flameshot gui")),
     Key([mod], "m", lazy.spawn("playerctl play-pause")),
+    Key([mod], "e", lazy.spawn("thunar")),
+
     
     # Kontrola głośności
     Key([], "XF86AudioRaiseVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")),
